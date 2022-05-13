@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS alcohol</title>
+    <!-- FontAwesome (iconos) -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/mystyles.css">
+    
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light">
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-lg-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <!---<img src="LOGO.png" alt="" width="30" height="24" class="d-inline-block align-text-top"> ---> TEQUILAS
+        </a>
+      </div>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <!--donde dice productos:-->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Productos </a>
+          </li>
+          <!--buscador y lupa-->
+          <div id="buscadordelnav">
+            <form id="inputyboton"class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="inputdenav">
+              <button class="btn btn-outline-success" type="submit" id="botondenav"><i class="fa-solid fa-magnifying-glass" id="searchnav"></i></button>
+            </form>
+          </div>  
+
+          <!--aqui el carro-->
+          <div class="dropdownnavverdediv" style="margin-right:4%;"> <!--div que envuelve todo lo verde-->
+            <li id="dropdownnav" class="nav-item dropdown"> <!--lista principal incluye texto verde -->
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa-solid fa-cart-arrow-down"></i> <!--i anterior es el icono carro-->
+                Carro de comprass
+              </a>
+
+                 <!--comienza la lista desplegable-->
+      
+
+              <ul class="dropdown-menu dropdown-menu-light " aria-labelledby="navbarDarkDropdownMenuLink"> 
+                
+                <!--de aqui en adelente la li de abajo esta lista envuelve toooodo el cart----->
+                <li>
+                  <div class="btn-group divprincipalcar" > <!--envuelte todo el cart GRANDE-->
+
+
+                    <div class="divsecundario1carrito">
+                      <div class="elemento1-divsecundariocarrito" >
+                        <img class="imagen-elemento1-divsecundariocarrito" src="LOGO.png" alt="imagen de lo que compraste">
+                      </div>
+
+                      <div class="elemento2-divsecundariocarrito"> <!--precio total de esos y descrip, pruo texto-->
+                        <div class="precioacumuladodeesos" > precioooo total</div>
+                        <div class="descripcionproductocar" >que producto fue bla blabla</div>
+                      </div>
+
+
+                      <div class="elemento3-divsecundariocarrito"> <!--sumrest cantidades de prod -->
+                        <div class="masnenoscant" >-</div>
+                        <div class="masnenoscant" id="cantidaddeproductocarro"> 4 </div>
+                        <div class="masnenoscant">+</div>
+                      </div>
+
+
+                      <div class="elemento4-divsecundariocarrito"> <!--trashcan -->
+                        <i class="fa-solid fa-trash"></i>
+                      </div>
+                    </div>
+
+
+
+<!--segundo shopin grande-->
+
+
+
+
+
+
+                    <div class="divsecundario1carrito">
+                      <div class="elemento1-divsecundariocarrito" >
+                        <img class="imagen-elemento1-divsecundariocarrito" src="LOGO.png" alt="imagen de lo que compraste">
+                      </div>
+
+                      <div class="elemento2-divsecundariocarrito"> <!--precio total de esos y descrip, pruo texto-->
+                        <div class="precioacumuladodeesos" > precioooo total</div>
+                        <div class="descripcionproductocar" >que producto fue bla blabla</div>
+                      </div>
+
+
+                      <div class="elemento3-divsecundariocarrito"> <!--sumrest cantidades de prod -->
+                        <div class="masnenoscant" >-</div>
+                        <div class="masnenoscant" id="cantidaddeproductocarro"> 4 </div>
+                        <div class="masnenoscant">+</div>
+                      </div>
+
+
+                      <div class="elemento4-divsecundariocarrito"> <!--trashcan -->
+                        <i class="fa-solid fa-trash"></i>
+                      </div>
+                    </div>
+                    
+
+
+
+
+
+<!--acaa el segundo grande-->
+<!--empieza totalsss-->
+
+
+
+
+
+
+
+
+
+                    
+                  </div> 
+                </li> 
+              </ul>       
+          </div>
+
+
+      <!-- vamos a probar 
+
+.-->
+  
+                    <div id="divsec3"></div>
+                    <div id="divsec4"></div>
+                   
+
+                    <!--<a class="dropdown-item" href="#">Action</a>-->
+                  </div>
+                  
+                </li>
+              </ul>
+            </li>
+          </div>
+
+
+        </ul>
+        
+
+      </div>
+      
+  </nav>  
+
+
+
+
+
+
+
+
+<!----
+
+
+
+
+
+
+
+  <main>
+
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+      <div class="anadirproducto">
+        <div class="mas">+</div>
+        <div class="numero">1</div>
+        <div class="menos">-</div>
+      </div>
+      <div class="añadiracarro">AÑADIR A CARRO</div>
+    </div>
+    <br>
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+      <div class="anadirproducto">
+        <div class="mas">+</div>
+        <div class="numero">1</div>
+        <div class="menos">-</div>
+      </div>
+      <div class="añadiracarro">AÑADIR A CARRO</div>
+    </div>
+    <br>
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+      <div class="anadirproducto">
+        <div class="mas">+</div>
+        <div class="numero">1</div>
+        <div class="menos">-</div>
+      </div>
+      <div class="añadiracarro">AÑADIR A CARRO</div>
+    </div>
+    <br>
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+      <div class="anadirproducto">
+        <div class="mas">+</div>
+        <div class="numero">1</div>
+        <div class="menos">-</div>
+      </div>
+      <div class="añadiracarro">AÑADIR A CARRO</div>
+    </div>
+    <br>
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+      <div class="anadirproducto">
+        <div class="mas">+</div>
+        <div class="numero">1</div>
+        <div class="menos">-</div>
+      </div>
+      <div class="añadiracarro">AÑADIR A CARRO</div>
+    </div>
+    <br>
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+      <div class="anadirproducto">
+        <div class="mas">+</div>
+        <div class="numero">1</div>
+        <div class="menos">-</div>
+      </div>
+      <div class="añadiracarro">AÑADIR A CARRO</div>
+    </div>
+    <br>
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+      <div class="anadirproducto">
+        <div class="mas">+</div>
+        <div class="numero">1</div>
+        <div class="menos">-</div>
+      </div>
+      <div class="añadiracarro">AÑADIR A CARRO</div>
+    </div>
+    <br>
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+      <div class="anadirproducto">
+        <div class="mas">+</div>
+        <div class="numero">1</div>
+        <div class="menos">-</div>
+      </div>
+      <div class="añadiracarro">AÑADIR A CARRO</div>
+    </div>
+    <br>
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+      <div class="anadirproducto">
+        <div class="mas">+</div>
+        <div class="numero">1</div>
+        <div class="menos">-</div>
+      </div>
+      <div class="añadiracarro">AÑADIR A CARRO</div>
+    </div>
+    <br>
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+      <div class="anadirproducto">
+        <div class="mas">+</div>
+        <div class="numero">1</div>
+        <div class="menos">-</div>
+      </div>
+      <div class="añadiracarro">AÑADIR A CARRO</div>
+    </div>
+    <br>
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+      <div class="anadirproducto">
+        <div class="mas">+</div>
+        <div class="numero">1</div>
+        <div class="menos">-</div>
+      </div>
+      <div class="añadiracarro">AÑADIR A CARRO</div>
+    </div>
+    <br>
+    <div class="card" >
+      <p class="descuentorojo">20%</p>
+      <img src="productos.png" class="card-img-top" alt="imagen de producto">
+
+      <div class="preciocondescuentorojoyanterior">
+        <div class="precioanterior">20$</div>
+        <div class="precioyacondescuentorojo">10$</div>
+      </div>
+      <div class="precioporlitro"> 19.90$/l
+      </div>
+      <div class="expliacionproducto">Tequila maestrodobel</div>
+      <br/>
+  </main>
+
+  <footer >
+    <nav class="navbar-nav navbar-black">
+
+    </nav>
+
+
+
+    <nav id="footer" class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-text">
+          <a href="https://es.wikipedia.org/wiki/Wikipedia:Pol%C3%ADtica_de_privacidad">Política de Privacidad</a> <br/>
+          <a href="https://es.wikipedia.org/wiki/Wikipedia:Pol%C3%ADtica_de_privacidad">Contacto </a><a href="https://www.google.es/maps/place/Tequila+Sunset/@41.6547581,-0.9445804,13z/data=!4m9!1m2!2m1!1stequila!3m5!1s0xd5914eda4510b05:0xbeb8703824a93de!8m2!3d41.6547581!4d-0.8786624!15sCgd0ZXF1aWxhWgkiB3RlcXVpbGGSAQ5jbG90aGluZ19zdG9yZQ">Localizacion</a> <br>
+          <a class="fa-brands fa-facebook iconos" ></a><a class="fa-brands fa-twitter iconos"></a> <br/>
+          <a class="fa-solid fa-copyright">derechos reservados 2022</a> <br>
+          <a href="../BUENA/login.html">admin </a>
+        </span>
+      </div>
+    </nav>
+  </footer>
+-->
+</body>
+</html>

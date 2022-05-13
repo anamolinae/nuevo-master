@@ -1,0 +1,32 @@
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: black;
+}
+input {
+  font-family:sans-serif;
+  outline: 0;
+  background:rgb(218, 217, 217);
+  width: 100%;
+  border: 0;
+  margin: 0 0 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+
+body {
+  background:white;
+}

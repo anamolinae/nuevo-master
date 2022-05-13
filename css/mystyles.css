@@ -1,0 +1,204 @@
+img.card-img-top.cardeimagen {
+    max-width: 15%;
+}
+
+.fivecolums{
+    width: 20%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+p.descuentorojo{
+    background-color:rgb(236, 133, 133) !important;
+    color:white;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+.card{
+    justify-content:space-between;
+    margin:2%;
+    max-height: 15%;
+    max-width: 15%;
+    min-width: 10rem;
+}
+.preciocondescuentorojoyanterior{
+
+    justify-content:flex-start;
+    flex-wrap: nowrap;
+    display: flex;
+    font-size:large;
+}
+.precioanterior{
+    color:black;
+    justify-content: space-between;
+    margin: .5%;
+}
+.precioyacondescuentorojo{
+    color:red;
+    justify-content: space-between;
+    margin: .5%;
+}
+.precioporlitro{
+    color:gray;
+}
+.expliacionproducto{
+    color:rgb(53, 53, 53);
+}
+div.anadirproducto{
+    background-color:rgb(223, 223, 223);
+    border-radius: 10px;
+    width: 100%;
+    justify-content:space-between;
+    justify-content:center;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    margin: .4%;
+    align-items:baseline;
+    height: auto;
+
+}
+.mas .menos .numero{
+    display: flex;
+    justify-content:center;
+    height: auto;
+
+}
+
+.añadiracarro{
+    background-color: rgb(51, 128, 51);
+    color:white;
+   
+}
+/*footer  
+    background-color:rgb(238, 238, 238);
+    color:black;
+    justify-content:center;
+    flex-wrap: nowrap;
+    
+} */
+a{
+    text-decoration: none
+
+}
+
+#footer {
+    text-decoration: none;
+}
+#inputdenav{
+    margin: 0rem !important;
+    border:0rem !important;
+    border-radius: 0%;
+}
+#botondenav{
+    background-color: rgb(233, 233, 233);
+    border-color: white;
+    margin: 0rem !important;
+    border:0rem;
+    border-radius: 0%;
+}
+#searchnav{
+    background-color: rgb(233, 233, 233);
+    color: gray;   
+}
+#inputyboton{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    height: auto;
+}
+#buscadordelnav{
+    margin-right: 4%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+button:hover{
+    background-color: white !important;
+}
+
+#dropdownnav{
+    background-color: green;
+    height: auto;
+}
+#dropdownnavverdediv{
+    margin-right: 4%;
+}
+
+
+
+/*ajustes del prop down*/
+
+
+/* div del principal  envuelve los grandes   .divprincipalcar */
+.divprincipalcar{
+    flex-wrap: wrap;
+}
+
+/* div divsecundariocarrito  uno y dosssss  aqui los de los productos */
+/* PONER TODOS CON FLEXWROW*/
+.divsecundario1carrito{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+    background-color: white;
+    align-items: center;
+    
+}
+
+/* Elemento1-divsecundariocarrito img*/
+.imagen-elemento1-divsecundariocarrito{
+    max-height: 4rem;
+    flex-grow: 1;
+}
+/* "elemento2-divsecundariocarrito aqui el texto expandible*/
+.elemento2-divsecundariocarrito{
+    flex-grow: 2;
+    background-color: white;
+    color:black;
+    font-size: small;
+    height: fit-content;
+    margin-left: 3%;
+    
+}
+.precioacumuladodeesos{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: bolder;
+}
+.descripcionproductocar{
+    margin-bottom: 0%;
+    margin-top: .5%;
+}
+
+/* div con mas menos */
+.elemento3-divsecundariocarrito{
+    flex-grow: 1;
+    border-radius: 20%;
+    background-color: gray;
+    display: inline-flex;
+    height:fit-content;
+    align-items: center;
+}
+.masnenoscant{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+
+/* div trashcan*/
+.elemento4-divsecundariocarrito{
+    flex-grow: 1;
+    align-items: center;
+    background-color: rgb(183, 183, 183);
+    color: black;
+    height: auto;
+}
